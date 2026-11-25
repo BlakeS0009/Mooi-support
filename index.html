@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mooi – Contact</title>
+<style>
+  body { margin:0; background:#fff; color:#111; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; line-height:1.6; }
+  main { max-width:640px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:32px; margin:0 0 8px; }
+  p { margin:0 0 12px; color:#333; }
+  a { color:#111; }
+  form { margin-top:28px; }
+  label { display:block; font-weight:600; font-size:15px; margin:18px 0 6px; }
+  input, select, textarea { width:100%; box-sizing:border-box; font:inherit; font-size:16px; padding:10px 12px; border:1px solid #bbb; border-radius:6px; background:#fff; color:#111; }
+  textarea { min-height:150px; resize:vertical; }
+  input:focus, select:focus, textarea:focus { outline:2px solid #111; outline-offset:1px; }
+  button { margin-top:24px; font:inherit; font-size:16px; font-weight:600; padding:12px 24px; border:none; border-radius:6px; background:#111; color:#fff; cursor:pointer; }
+  button:hover { background:#333; }
+  .note { font-size:14px; color:#666; margin-top:16px; }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid #ddd; font-size:14px; color:#666; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Contact Mooi</h1>
+  <p>Send us a message and we'll get back to you as soon as we can.</p>
+
+  <form action="https://formsubmit.co/blakestevens0909@icloud.com" method="POST">
+    <input type="hidden" name="_subject" value="New Mooi support message">
+    <input type="hidden" name="_template" value="table">
+
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" autocomplete="name" required>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="email" required>
+
+    <label for="topic">Topic</label>
+    <select id="topic" name="topic">
+      <option>General question</option>
+      <option>Problem with the app</option>
+      <option>Incorrect product or ingredient</option>
+      <option>Missing brand or product</option>
+      <option>Feature request or feedback</option>
+      <option>Privacy and data</option>
+      <option>Other</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send message</button>
+  </form>
+
+  <footer>
+    © 2026 Mooi · <a href="./">Support</a> · <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
